@@ -1,0 +1,21 @@
+<p>
+  signin works!
+</p>
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="form-group">
+      <label for="">Email</label>
+      <input [(ngModel)]="Email" type="email" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="">Password</label>
+      <input [(ngModel)]="Password" type="password" class="form-control">
+    </div>
+    <div class="form-group">
+      <button (click)="signin()" class="btn btn-success">SignIn</button>
+      <button (click)="cancel()" class="btn btn-danger" style="margin-left: 10px">Cancel</button>
+    </div>
+  </div>
+</div>
